@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tvDate"></item>
+    <item name="textView" type="id"></item>
+    <item name="name" type="id"></item>
+    <item name="imageView" type="id"></item>
+    <item name="textView4" type="id"></item>
+    <item name="bt1" type="id"></item>
+    <item name="w1" type="id"></item>
+    <item name="bt2" type="id"></item>
+    <item name="textView6" type="id"></item>
+    <item name="ht" type="id"></item>
+    <item name="bt3" type="id"></item>
+    <item name="r1" type="id"></item>
+    <item name="male" type="id"></item>
+    <item name="female" type="id"></item>
+    <item name="textView3" type="id"></item>
+    <item name="save" type="id"></item>
+    <item name="pass" type="id"></item>
+    <item name="textView2" type="id"></item>
+    <item name="bt4" type="id"></item>
+</resources>

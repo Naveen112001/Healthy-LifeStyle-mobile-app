@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:background="#FDF6F6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="410dp"
+                android:layout_height="146dp"
+                android:layout_gravity="center"
+                android:height="100dp"
+                android:text="Welcome Back!"
+                android:textAlignment="center"
+                android:textColor="#FF1110"
+                android:padding="25dp"
+                android:shadowColor="#F3B754"
+                android:shadowDx="12"
+                android:shadowDy="12"
+                android:shadowRadius="8"
+
+                android:textSize="50dp"></TextView>
+
+            <ImageButton
+                android:id="@+id/Traditional_medicine"
+                android:layout_width="wrap_content"
+                android:layout_height="385dp"
+                android:layout_gravity="fill"
+                android:layout_margin="20dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:scaleType="centerInside"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/traditionalmedicine"
+                android:text=""
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                tools:ignore="UnusedAttribute"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/yoga"
+                android:layout_width="match_parent"
+                android:layout_height="385dp"
+                android:layout_gravity="fill"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:text=""
+                android:scaleType="centerInside"
+                android:src="@drawable/type2"
+                android:soundEffectsEnabled="true"
+                android:layout_margin="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/sugesstions"
+                android:layout_width="match_parent"
+                android:layout_height="385dp"
+                android:soundEffectsEnabled="true"
+                android:src="@drawable/edition"
+                android:scaleType="centerInside"
+                android:layout_gravity="fill"
+                android:layout_margin="20dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:text="Health Suggestions"
+                android:textSize="25dp"
+                android:textStyle="bold"></ImageButton>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
