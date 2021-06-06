@@ -1,7 +1,7 @@
 # My-Team-Mini-Project-application
 # Team Members
 # 1.Naveenkumar
-# 2.jashwanth
+# 2.Jashwanth
 # 3.Abinayan
 
 # Abstract
